@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TransLog Express: transporte rodoviario, cargas urgentes, logistica dedicada e rastreamento em tempo real.">
+  <title>TransLog Express | Transporte e Logistica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="TransLog Express">
+      <span class="brand-mark">TL</span>
+      <span>TransLog</span>
+    </a>
+
+    <nav class="nav" data-nav aria-label="Navegacao principal">
+      <a href="#servicos">Servicos</a>
+      <a href="#solucoes">Solucoes</a>
+      <a href="#frota">Frota</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="header-cta" href="#contato">Cotar frete</a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img class="hero-image" src="assets/hero-transportadora.png" alt="Caminhao moderno de transportadora em rodovia ao nascer do sol">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <span class="eyebrow">Logistica nacional com precisao</span>
+        <h1>Transporte rapido, seguro e rastreavel.</h1>
+        <p>Coletas programadas, cargas dedicadas e entregas expressas com acompanhamento em tempo real para empresas que nao podem parar.</p>
+        <div class="hero-kpis" aria-label="Indicadores de atendimento">
+          <div>
+            <strong>24/7</strong>
+            <span>Torre de controle</span>
+          </div>
+          <div>
+            <strong>15 min</strong>
+            <span>Resposta comercial</span>
+          </div>
+          <div>
+            <strong>BR</strong>
+            <span>Cobertura nacional</span>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contato">Solicitar cotacao</a>
+          <a class="btn ghost" href="#servicos">Ver servicos</a>
+        </div>
+      </div>
+      <div class="hero-panel reveal" style="--delay: 160ms">
+        <span>Performance operacional</span>
+        <strong>98%</strong>
+        <small>das entregas dentro do prazo contratado</small>
+      </div>
+    </section>
+
+    <section class="route-strip" aria-label="Fluxo logistico">
+      <div class="route-step">
+        <span>01</span>
+        <strong>Coleta</strong>
+        <small>Agenda e conferencia</small>
+      </div>
+      <div class="route-line"></div>
+      <div class="route-step">
+        <span>02</span>
+        <strong>Monitoramento</strong>
+        <small>Status em tempo real</small>
+      </div>
+      <div class="route-line"></div>
+      <div class="route-step">
+        <span>03</span>
+        <strong>Entrega</strong>
+        <small>Comprovante digital</small>
+      </div>
+    </section>
+
+    <section class="stats section-band">
+      <div class="stat reveal">
+        <strong data-count="420">0</strong>
+        <span>Cidades atendidas</span>
+      </div>
+      <div class="stat reveal" style="--delay: 90ms">
+        <strong data-count="24">0</strong>
+        <span>Horas de monitoramento</span>
+      </div>
+      <div class="stat reveal" style="--delay: 180ms">
+        <strong data-count="1200">0</strong>
+        <span>Embarques por mes</span>
+      </div>
+      <div class="stat reveal" style="--delay: 270ms">
+        <strong data-count="15">0</strong>
+        <span>Anos de estrada</span>
+      </div>
+    </section>
+
+    <section class="proof section" aria-label="Prova social">
+      <div class="proof-copy reveal">
+        <span class="eyebrow">Confianca operacional</span>
+        <h2>Empresas que precisam cumprir prazo escolhem previsibilidade.</h2>
+      </div>
+      <div class="client-rail reveal" style="--delay: 100ms" aria-label="Segmentos atendidos">
+        <span>Industria</span>
+        <span>Varejo</span>
+        <span>E-commerce</span>
+        <span>Distribuidores</span>
+        <span>Autopecas</span>
+      </div>
+      <blockquote class="testimonial reveal" style="--delay: 180ms">
+        <p>"Acompanhamento claro, coleta no horario e comunicacao direta. A operacao ficou mais previsivel ja no primeiro mes."</p>
+        <cite>Gerente de Supply Chain, cliente B2B</cite>
+      </blockquote>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Servicos</span>
+        <h2>Operacao sob medida para cada carga.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v8H3z"/><path d="M14 10h4l3 3v2h-7z"/><circle cx="7" cy="17" r="2"/><circle cx="18" cy="17" r="2"/></svg>
+          </div>
+          <span class="service-tag">Rotas exclusivas</span>
+          <h3>Carga dedicada</h3>
+          <p>Veiculo exclusivo, rota planejada e janela de entrega alinhada ao seu cronograma.</p>
+        </article>
+        <article class="service-card reveal" style="--delay: 100ms">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v6l4 2"/><circle cx="12" cy="12" r="9"/></svg>
+          </div>
+          <span class="service-tag">Urgencias</span>
+          <h3>Entrega expressa</h3>
+          <p>Resposta agil para cargas urgentes, com equipe de suporte acompanhando cada etapa.</p>
+        </article>
+        <article class="service-card reveal" style="--delay: 200ms">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7l8-4 8 4-8 4z"/><path d="M4 7v10l8 4 8-4V7"/><path d="M12 11v10"/></svg>
+          </div>
+          <span class="service-tag">Malha B2B</span>
+          <h3>Distribuicao B2B</h3>
+          <p>Malha eficiente para centros de distribuicao, lojas, industrias e e-commerces.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="story" id="solucoes">
+      <div class="story-copy reveal">
+        <span class="eyebrow">Controle total</span>
+        <h2>Da coleta a entrega, voce acompanha tudo.</h2>
+        <p>A TransLog combina roteirizacao inteligente, motoristas treinados e rastreamento ativo para reduzir atrasos, perdas e retrabalho.</p>
+        <div class="control-card" aria-label="Resumo de monitoramento">
+          <span>Central de monitoramento</span>
+          <strong>ETA atualizado a cada etapa</strong>
+          <small>Alertas de rota, paradas e comprovantes em um fluxo unico.</small>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span>01</span>
+          <div>
+            <h3>Coleta programada</h3>
+            <p>Agendamento claro, conferencia e documentacao pronta para seguir viagem.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <span>02</span>
+          <div>
+            <h3>Rota monitorada</h3>
+            <p>Atualizacoes de status e suporte operacional durante todo o percurso.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <span>03</span>
+          <div>
+            <h3>Entrega confirmada</h3>
+            <p>Comprovante, fechamento e historico para facilitar sua gestao logistica.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fleet section" id="frota">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Frota</span>
+        <h2>Equipamentos prontos para cargas leves, medias e pesadas.</h2>
+      </div>
+      <div class="fleet-grid">
+        <div class="fleet-item reveal"><strong>VUC</strong><span>Distribuicao urbana</span></div>
+        <div class="fleet-item reveal" style="--delay: 80ms"><strong>Toco</strong><span>Cargas regionais</span></div>
+        <div class="fleet-item reveal" style="--delay: 160ms"><strong>Truck</strong><span>Alto volume</span></div>
+        <div class="fleet-item reveal" style="--delay: 240ms"><strong>Carreta</strong><span>Longa distancia</span></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="contact-copy reveal">
+        <span class="eyebrow">Cotacao</span>
+        <h2>Envie sua rota e receba um plano de transporte.</h2>
+        <p>Informe origem, destino e tipo de carga. Nossa equipe retorna com prazo, veiculo recomendado e valor estimado.</p>
+      </div>
+      <form class="quote-form reveal" aria-label="Formulario de cotacao">
+        <label>
+          Nome
+          <input type="text" name="nome" placeholder="Seu nome" required>
+        </label>
+        <label>
+          Telefone
+          <input type="tel" name="telefone" placeholder="(00) 00000-0000" required>
+        </label>
+        <label>
+          Rota
+          <input type="text" name="rota" placeholder="Ex: Sao Paulo para Curitiba" required>
+        </label>
+        <button class="btn primary" type="submit">Enviar cotacao</button>
+      </form>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/5500000000000?text=Ola%2C%20quero%20solicitar%20uma%20cotacao%20de%20frete" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M19.1 4.9A9.7 9.7 0 0 0 3.3 16l-1 3.8 3.9-1a9.7 9.7 0 0 0 4.6 1.2h.1a9.7 9.7 0 0 0 9.7-9.7 9.6 9.6 0 0 0-1.5-5.4Zm-9.3 13a8 8 0 0 1-4.1-1.1l-.3-.2-2.3.6.6-2.2-.2-.4A8 8 0 1 1 17.7 17a7.9 7.9 0 0 1-5.7 2.4Zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1c-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-1.9-1.2A7.1 7.1 0 0 1 7.5 9.4c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5a.5.5 0 0 0 0-.5c-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.8 4.8 0 0 0 1 2.6 11 11 0 0 0 4.2 3.7 14 14 0 0 0 1.4.5 3.4 3.4 0 0 0 1.5.1 2.5 2.5 0 0 0 1.7-1.2 2 2 0 0 0 .1-1.2c-.1-.1-.3-.2-.5-.3Z"/>
+    </svg>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
