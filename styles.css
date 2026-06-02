@@ -921,7 +921,7 @@ input:focus-visible {
   .route-strip {
     grid-template-columns: 1fr;
     width: calc(100% - 32px);
-    margin-top: -42px;
+    margin-top: 12px;
     padding: 14px;
     gap: 0;
   }
@@ -1044,6 +1044,13 @@ input:focus-visible {
 
   .stats {
     gap: 0;
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .stats .reveal {
+    opacity: 1 !important;
+    transform: none !important;
   }
 
   .stat {

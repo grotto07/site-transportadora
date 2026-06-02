@@ -98,7 +98,7 @@ const setupGsapAnimations = () => {
     },
   });
 
-  gsap.utils.toArray(".route-step, .stat, .service-card, .timeline-item, .fleet-item, .quote-form, .control-card, .client-rail, .testimonial").forEach((item) => {
+  gsap.utils.toArray(".route-step, .service-card, .timeline-item, .fleet-item, .quote-form, .control-card, .client-rail, .testimonial").forEach((item) => {
     gsap.from(item, {
       y: 32,
       opacity: 0,
