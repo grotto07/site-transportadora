@@ -9,13 +9,17 @@ let countersStarted = false;
 
 menuToggle?.addEventListener("click", () => {
   const isOpen = nav.classList.toggle("is-open");
+  menuToggle.classList.toggle("is-open", isOpen);
   menuToggle.setAttribute("aria-label", isOpen ? "Fechar menu" : "Abrir menu");
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
 });
 
 nav?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.remove("is-open");
+    menuToggle?.classList.remove("is-open");
     menuToggle?.setAttribute("aria-label", "Abrir menu");
+    menuToggle?.setAttribute("aria-expanded", "false");
   });
 });
 
